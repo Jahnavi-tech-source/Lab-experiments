@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main()
+{
+    int a , b , c , sum;
+    float average;
+    
+    printf("enter three numbers: ");
+    scanf("%d %d %d" , &a , &b , &c);
+    
+    sum = a + b + c;
+    average = sum / 3;
+    
+    printf("sum = %d\n" , sum);
+    printf("average = %.2f\n" , average);
+
+
+    return 0;
+}
